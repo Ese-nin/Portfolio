@@ -1,0 +1,16 @@
+.footer {
+    height: 150px;
+    background-color: burlywood;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    height: 30px;
+}

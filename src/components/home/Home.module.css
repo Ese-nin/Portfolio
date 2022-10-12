@@ -1,0 +1,15 @@
+.homeWrapper {
+    height: 100vh;
+    background-color: bisque;
+}
+
+.description {
+    width: 350px;
+    background-color: gainsboro;
+}
+
+.image {
+    height: 400px;
+    width: 400px;
+    background-color: rgba(105, 105, 105, 0.3);
+}
