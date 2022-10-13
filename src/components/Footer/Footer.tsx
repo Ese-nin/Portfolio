@@ -12,7 +12,7 @@ export const Footer = () => {
                 <Icon/>
                 <Icon/>
             </div>
-            <span>(c)2122 All right reserved</span>
+            <p>(c)2122 All right reserved</p>
         </div>
     );
 };
