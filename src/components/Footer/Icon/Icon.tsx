@@ -1,10 +1,14 @@
 import React from 'react';
-import s from './Icon.module.css'
+import s from './Icon.module.scss'
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {IconProp} from "@fortawesome/fontawesome-svg-core";
 
-export const Icon = () => {
+type IconPropsType = {
+    icon: IconProp
+}
+
+export const Icon = (props: IconPropsType) => {
     return (
-        <div className={s.mainBlock}>
-
-        </div>
+        <FontAwesomeIcon className={s.icon} icon={props.icon}/>
     );
 };

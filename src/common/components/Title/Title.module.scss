@@ -1,0 +1,11 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
+.title {
+    margin-bottom: 30px;
+    h2 {
+        color: $textColor;
+        margin: 0;
+        @include text($titleFontFamily, 38px, 50px, 700);
+    }
+}

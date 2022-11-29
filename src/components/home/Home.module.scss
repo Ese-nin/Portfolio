@@ -1,0 +1,62 @@
+@import './../../common/styles/sass/variables.scss';
+
+.homeWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: $bgColor;
+
+  .container {
+    flex-direction: row-reverse;
+
+    .image {
+      padding: 34px;
+      box-shadow: $boxShadowPrimary;
+      position: relative;
+      right: 0;
+      border-radius: 10px;
+      height: 100%;
+
+      img {
+        width: 350px;
+        border-radius: 10px;
+      }
+    }
+
+    .description {
+      padding: 35px;
+      background: #212428;
+      box-shadow: $boxShadowPrimary;
+      border-radius: 10px 10px 0 0;
+
+      .homeTitle {
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 62px;
+        margin-bottom: 11px;
+        font-family: $titleFontFamily;
+        .name {
+          color: $primaryColor;
+        }
+      }
+      .homeContacts {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 15px;
+        .contactIcon {
+          color: $primaryColor
+        }
+      }
+    }
+    @media screen and (max-width: 1230px) {
+      justify-content: center;
+    }
+  }
+}
+
+
+

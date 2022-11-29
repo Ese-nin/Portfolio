@@ -1,0 +1,30 @@
+@import '../../../common/styles/sass/variables';
+
+.skillWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  min-height: 250px;
+
+  .iconWrapper {
+    .icon {
+      height: 80px;
+      background-color: #2cd3fc;
+    }
+  }
+
+  .title {
+    font-family: $titleFontFamily;
+    color: $textColor;
+  }
+
+  .description {
+    text-align: center;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,16 @@
+@import './../../../common/styles/sass/variables';
+
+.nav {
+    border: 1px solid crimson;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    a {
+        font-family: $titleFontFamily;
+        text-decoration: none;
+        color: #ffffff;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
