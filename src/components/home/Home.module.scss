@@ -19,7 +19,8 @@
       height: 100%;
 
       img {
-        width: 350px;
+        width: 100%;
+        max-width: 350px;
         border-radius: 10px;
       }
     }
@@ -37,21 +38,25 @@
         line-height: 62px;
         margin-bottom: 11px;
         font-family: $titleFontFamily;
+
         .name {
           color: $primaryColor;
         }
       }
+
       .homeContacts {
         margin-top: 25px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         gap: 15px;
+
         .contactIcon {
           color: $primaryColor
         }
       }
     }
+
     @media screen and (max-width: 1230px) {
       justify-content: center;
     }

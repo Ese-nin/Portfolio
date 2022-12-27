@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Home.module.scss'
-import sContainer from '../../common/styles/Container.module.css'
+import sContainer from '../../common/styles/Container.module.scss'
 import mainPhoto from '../../accets/img/MainPhoto.jpg'
 import {faMailForward, faPhone} from '@fortawesome/free-solid-svg-icons'
 import {HomeContact} from "./HomeContact";
